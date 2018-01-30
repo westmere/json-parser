@@ -62,7 +62,7 @@ int json_parse_object(const char *js, unsigned int jslen, jsmntok_t *tokens, int
 	return 0;
 }
 
-int json_parse_array(const char *js, unsigned int jslen, jsmntok_t *tokens, int tokcount, const char *name, swh_config_array_element_callback_t callback)
+int json_parse_array(const char *js, unsigned int jslen, jsmntok_t *tokens, int tokcount, const char *name, json_array_element_callback_t callback)
 {
 	int i,j,rc;
 	jsmn_parser jsmn_parser_object;
