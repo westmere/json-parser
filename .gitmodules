@@ -1,0 +1,3 @@
+[submodule "json-jsmn"]
+	path = json-jsmn
+	url = https://github.com/westmere/json-jsmn.git
